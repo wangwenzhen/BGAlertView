@@ -1,0 +1,26 @@
+PODS:
+  - BeautyKit (1.1.0):
+    - BeautyKit/Category (= 1.1.0)
+    - BeautyKit/Macros (= 1.1.0)
+    - BeautyKit/SubClass (= 1.1.0)
+  - BeautyKit/Category (1.1.0):
+    - BeautyKit/Category/Foundation (= 1.1.0)
+    - BeautyKit/Category/UIKit (= 1.1.0)
+  - BeautyKit/Category/Foundation (1.1.0)
+  - BeautyKit/Category/UIKit (1.1.0):
+    - BeautyKit/Category/Foundation
+  - BeautyKit/Macros (1.1.0)
+  - BeautyKit/SubClass (1.1.0)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - BeautyKit (~> 1.1.0)
+  - Masonry (~> 1.1.0)
+
+SPEC CHECKSUMS:
+  BeautyKit: 4d5a0d143498cde7930e0be403bb677063fb4871
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 8212472db43f936728528a6e5eda761e18e55284
+
+COCOAPODS: 1.3.1
