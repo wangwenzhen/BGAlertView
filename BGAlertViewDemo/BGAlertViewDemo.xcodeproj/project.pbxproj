@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70FAC2B22320B101008D1A4B /* BGAlertView+BGAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FAC2B12320B101008D1A4B /* BGAlertView+BGAdd.m */; };
 		BBAE3F773F9E59D5E92473F3 /* libPods-BGAlertViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57DE0E54000E423C02CCCE35 /* libPods-BGAlertViewDemo.a */; };
 		C01E26DC20D8946D006134C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C01E26DB20D8946D006134C4 /* AppDelegate.m */; };
 		C01E26DF20D8946D006134C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C01E26DE20D8946D006134C4 /* ViewController.m */; };
@@ -40,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		57DE0E54000E423C02CCCE35 /* libPods-BGAlertViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BGAlertViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70FAC2B02320B101008D1A4B /* BGAlertView+BGAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BGAlertView+BGAdd.h"; sourceTree = "<group>"; };
+		70FAC2B12320B101008D1A4B /* BGAlertView+BGAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BGAlertView+BGAdd.m"; sourceTree = "<group>"; };
 		8549F612C653DECC41B41174 /* Pods-BGAlertViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGAlertViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BGAlertViewDemo/Pods-BGAlertViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		85D02F457865349753EE3153 /* Pods-BGAlertViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGAlertViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BGAlertViewDemo/Pods-BGAlertViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C01E26D720D8946D006134C4 /* BGAlertViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BGAlertViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +105,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		70FAC2AF2320B101008D1A4B /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				70FAC2B02320B101008D1A4B /* BGAlertView+BGAdd.h */,
+				70FAC2B12320B101008D1A4B /* BGAlertView+BGAdd.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
 		C01E26CE20D8946D006134C4 = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +142,7 @@
 			children = (
 				C01E26DA20D8946D006134C4 /* AppDelegate.h */,
 				C01E26DB20D8946D006134C4 /* AppDelegate.m */,
+				70FAC2AF2320B101008D1A4B /* Demo */,
 				C01E26DD20D8946D006134C4 /* ViewController.h */,
 				C01E26DE20D8946D006134C4 /* ViewController.m */,
 				C01E26E020D8946D006134C4 /* Main.storyboard */,
@@ -375,6 +388,7 @@
 				C01E272120D9291B006134C4 /* BGAlertView+BGAdd.m in Sources */,
 				C01E26EA20D8946D006134C4 /* main.m in Sources */,
 				C01E26DC20D8946D006134C4 /* AppDelegate.m in Sources */,
+				70FAC2B22320B101008D1A4B /* BGAlertView+BGAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
